@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+</head>
+
+<body>
+<article class="card">
+<!-- zbadać jak seo i przeglądarka działa z svg, png, jpg, webp. ktory format najlepszy-->
+  <img class="card-image" src="assets\images\illustration-article.svg" alt="" aria-hidden="true"> <!--For accessibility, this image should have an empty alt attribute since it’s decorative -->
+
+  <div class="card-content">
+    <div class="card-wrapper-category">
+    <p class="card-category">Learning</p>
+    </div>
+
+    <p class="card-published-date">Published <time datetime="2023-12-21">21 Dec 2023</time></p>
+
+    <h1 class="card-title">HTML & CSS foundations<h1>
+
+    <p class="card-description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  </div>
+
+  <div class="card-author">
+    <img class="card-avatar" src="assets\images\image-avatar.webp" alt="" aria-hidden="true">
+    <p class="card-author-name">Greg Hooper</p>
+  </div>
+
+</article>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/mbrzeska" target="_blank" rel="noopener noreferrer">mbrzeska</a>.
+  </footer>
+</body>
+</html>
